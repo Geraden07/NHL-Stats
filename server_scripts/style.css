@@ -1,0 +1,47 @@
+body{
+	background-color:#FFF;/*Sets the page background white*/
+}
+
+#white{
+	background-color:#FFF
+}
+
+#main{
+	margin: auto auto;
+	background-color:#A50000;
+	padding: 25px;
+	width: 80%;
+	min-width: 550px;
+	max-width: 1400px;
+	text-align: center;
+}
+
+#statTable{
+	font-size: 13px;
+	font-family: Arial,sans-serif;
+	border-width: 5px;
+	border-spacing: 0px;
+	border-style: solid;
+	border-color: white;
+	background-color:white;
+	-moz-border-radius: 9px;
+	margin-left:auto;
+	margin-right:auto;
+	width:100%;
+}
+td{
+	border-width:1px;
+	padding:2px;
+	border-style: solid;
+	border-color:black;
+}
+th{
+	border-width:1px;
+	padding:2px;
+	border-style: solid;
+	border-color:black;
+}
+
+#footer{
+	text-align: center;
+}

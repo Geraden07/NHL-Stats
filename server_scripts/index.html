@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns = "http://www.w3.org/1999/xhtml">
+	<head>
+		<title>
+			NHL Stats Listings
+		</title>		
+		<script type="text/javascript" src="pageNavi.js"></script>
+		<script type="text/javascript" src="ajax.js"></script>
+		<link type="text/css" rel="stylesheet" href="style.css" />
+	</head>	
+	<body>
+		<div id="main">
+			<div id="white">
+				<h1>
+					NHL Stats Page
+				</h1>
+			</div>
+			<div id="dynamicTableContent">
+			</div>
+			<div>
+				Current Page: <span id="pageShown">1</span> of <span id="maxPages">204</span> -- Displaying Results: <span id="resultsShown">1-60</span> of <span id="maxResults">6119</span>
+			</div>
+			<div>
+				<input type="button" value="<-- Previous Page" id="prevButton" />
+				<label for="jumpText">Jump To Page:</label>
+				<input type="text" size=4 id="jumpText" value="1" />
+				<input type="button" value="Jump" id="jumpButton" />
+				<input type="button" value="Next Page -->" id="nextButton" />
+			</div>
+		</div>
+		<br />
+		<div id="footer">Website by Steven Bell using data from <a href="www.NHL.com">NHL.com</a>.</div>
+		<script type="text/javascript" src="pageHandler.js"></script>
+	</body>
+</html>
